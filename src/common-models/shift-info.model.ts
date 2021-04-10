@@ -11,7 +11,7 @@ export interface Shift {
   from: number;
   to: number;
   color: string;
-  isWorkingShift?: boolean;
+  isWorkingShift: boolean;
   normSubtraction?: number;
 }
 
