@@ -65,7 +65,7 @@ function App(): JSX.Element {
   const tabs: Tabs[] = useMemo(
     () => [
       {
-        label: "Planik",
+        label: "Plan",
         component: <SchedulePage editModeHandler={setDisableRouteButtons} />,
         onChange: (): void => setMode(AppMode.SCHEDULE),
         dataCy: "btn-schedule-tab",

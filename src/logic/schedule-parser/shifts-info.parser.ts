@@ -1,7 +1,11 @@
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
-import { ParseErrorCode, ScheduleError } from "../../common-models/schedule-error.model";
+import {
+  InputFileErrorCode,
+  ParseErrorCode,
+  ScheduleError,
+} from "../../common-models/schedule-error.model";
 import { ShiftCode } from "../../common-models/shift-info.model";
 import { WorkerGroup } from "../../common-models/worker-info.model";
 import { StringHelper } from "../../helpers/string.helper";
@@ -122,10 +126,9 @@ export class ShiftsInfoParser extends ShiftsProvider {
   }
 
   private logLoadFileError(msg: string): void {
-    // TODO uncomennt
-    // this._parseErrors.push({
-    //   kind: InputFileErrorCode.LOAD_FILE_ERROR,
-    //   message: msg,
-    // });
+    this._parseErrors.push({
+      kind: InputFileErrorCode.LOAD_FILE_ERROR,
+      message: msg,
+    });
   }
 }
