@@ -1,3 +1,18 @@
+## [2.0.2](https://github.com/pectom/nurse-scheduling-problem-frontend/compare/v2.0.1...v2.0.2) (2021-04-16)
+
+
+### Performance Improvements
+
+* **app:** breaking change ([2d974c0](https://github.com/pectom/nurse-scheduling-problem-frontend/commit/2d974c07a22f24e879a6883879b23c66a3065d15))
+* **app:** version bump ([a865ffd](https://github.com/pectom/nurse-scheduling-problem-frontend/commit/a865ffd078634ef8e0512e740e8cef5120885564))
+
+
+### Reverts
+
+* Revert "TASK-300 Add no schedule image as link (don't merge) (#228)" (#241) ([255c5bd](https://github.com/pectom/nurse-scheduling-problem-frontend/commit/255c5bdfda1649ed1033d5a47d224e9bab9c98e9)), closes [#228](https://github.com/pectom/nurse-scheduling-problem-frontend/issues/228) [#241](https://github.com/pectom/nurse-scheduling-problem-frontend/issues/241)
+* Revert "TASK-308 Evaluate working time issues on frontend (#233)" (#240) ([4ff6350](https://github.com/pectom/nurse-scheduling-problem-frontend/commit/4ff6350c1e3c1eed5044a2c808ec8715cf76461c)), closes [#233](https://github.com/pectom/nurse-scheduling-problem-frontend/issues/233) [#240](https://github.com/pectom/nurse-scheduling-problem-frontend/issues/240)
+* Revert "TASK-300 Add calendar image to no schedule uploaded screen (#214)" (#224) ([464645b](https://github.com/pectom/nurse-scheduling-problem-frontend/commit/464645b223303694e853fe066e9d28d47d1e3a48)), closes [#214](https://github.com/pectom/nurse-scheduling-problem-frontend/issues/214) [#224](https://github.com/pectom/nurse-scheduling-problem-frontend/issues/224)
+
 ## [2.0.1](https://github.com/Project-Summer-AI-Lab-Glider/nurse-scheduling-problem-frontend/compare/v2.0.0...v2.0.1) (2021-04-11)
 
 
